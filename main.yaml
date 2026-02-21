@@ -3,8 +3,6 @@
   become: yes
   vars:
     package_name: httpd
-  roles:
-  - webserver
   tasks:
   - name: print db password
     ansible.buitlin.debug:
