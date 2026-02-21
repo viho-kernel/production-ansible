@@ -5,3 +5,7 @@
     package_name: httpd
   roles:
   - webserver
+
+- name: Print DB password
+  debug:
+    msg: "DB Password is {{ db_password }}"
