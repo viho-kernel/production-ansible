@@ -1,3 +1,0 @@
-env: dev
-ansible_user: ec2-user
-ansible_password: vihari-keypiar.pem

@@ -1,6 +1,6 @@
 - name: Install nginx
   ansible.builtin.dnf:
-    name: nginx
+    name: "{{ package_name }}"
     state: present
 
 - name: Deploy template
