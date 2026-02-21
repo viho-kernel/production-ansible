@@ -5,7 +5,7 @@
     package_name: httpd
   roles:
   - webserver
-
+  
 - name: Print DB password
   ansible.builtin.debug:
     msg: "DB Password is {{ db_password }}"
