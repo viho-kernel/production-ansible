@@ -1,5 +1,7 @@
 - name: Deploying web server
   hosts: all
   become: yes
+  vars:
+    package_name: httpd
   roles:
   - webserver
