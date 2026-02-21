@@ -7,5 +7,5 @@
   - webserver
 
 - name: Print DB password
-  debug:
+  ansible.builtin.debug:
     msg: "DB Password is {{ db_password }}"
