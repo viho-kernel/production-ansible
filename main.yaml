@@ -5,5 +5,5 @@
     package_name: httpd
   tasks:
   - name: print db password
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "DB Password is {{ db_password }}"
