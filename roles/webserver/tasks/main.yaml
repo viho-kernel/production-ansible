@@ -1,3 +1,7 @@
+- name: Print environment
+  debug:
+    msg: "This server belongs to {{ env }}"
+
 - name: Install nginx
   ansible.builtin.dnf:
     name: "{{ package_name }}"
