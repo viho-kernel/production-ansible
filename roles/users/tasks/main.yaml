@@ -1,0 +1,8 @@
+- name: Create users
+  user:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - devops1
+    - devops2
+    - tester1
